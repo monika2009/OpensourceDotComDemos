@@ -35,7 +35,7 @@ table, th, td {
 
 NIC DevOps Platform is a container management platform built for various Indian government’s organizations that deploy containers based applications in production environments. Containerisation helps developers create applications faster and orchestrate the entire development cycle in the agile manner and combines development and IT operations through a practice popularly known as *DevOps*. DevOps facilitate modern application development, testing and packaging. NIC’s DevOps platform is the underlying IT infrastructure that is made up of many other software technologies such as Docker/container, Kubernetes  which provides a service for containerized workloads and is known as CaaS i.e. container as a service. Following sections provide a detailed description of each technology and procedures to use the DevOps platforms.
 
-
+ 
 **Why DevOps**
 
 DevOps is like a culture when adopted has proven to increase the speed and quality of software delivery as well as better teamwork and efficiency across multiple teams. DevOps removes silos of communication and improves collaboration. Adoption of DevOps has improved the progress of software delivery through [CI-CD](#ci//cd), reliability and removes gaps and mistakes that can considerably delay the software release.
