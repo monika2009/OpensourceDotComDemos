@@ -72,7 +72,7 @@ NIC CaaS is a Container as a Service platform built for government organizations
 
 Before we dive into the NIC CaaS platform, it will be quite informative for you to know the core components and technologies that makes the NIC’s CaaS a cutting edge and modern DevOps Platform. While dealing with <a href="Container1.md">Container</a>, we will hear two popular technologies, <a href="Container1.md">Docker</a> and the <a href="Container1.md">Kubernetes</a>Kubernetes. 
 
-<!--#### A brief introduction to container
+<!--#### A brief introduction to container 
 
 A container is a standard unit of software that packages up code and all its dependencies so the application can be ported from one computing environment to another where it can run quickly and reliably. Docker is the most popular container runtime. Docker packages(containerize) your application and all its dependencies together in the form of a docker container image that is portable and works seamlessly in any environment that supports docker containers.
 
