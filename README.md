@@ -70,7 +70,7 @@ NIC CaaS is a Container as a Service platform built for government organizations
 2. **External Endpoints** - External Endpoints provide connectivity between users applications running on NIC CaaS & external servers/Systems like Database, SMTP, SMS Gateways servers for external access.
 3. **Container Additional Items** - NIC CaaS provides a container Additional items in which users easily run and scale containerised applications through NIC Cloud. 
 
-Before we dive into the NIC CaaS platform, it will be quite informative for you to know the core components and technologies that makes the NIC’s CaaS a cutting edge and modern DevOps Platform. While dealing with <a href="Container1.md">Container</a>, we will hear two popular technologies, <a href="Container1.md">Docker</a> and the <a href="Container1.md">Kubernetes</a>. 
+Before we dive into the NIC CaaS platform, it will be quite informative for you to know the core components and technologies that makes the NIC’s CaaS a cutting edge and modern DevOps Platform. While dealing with <a href="Container1.pdf">Container</a>, we will hear two popular technologies, <a href="Container1.md">Docker</a> and the <a href="Container1.md">Kubernetes</a>. 
 
 <!--#### A brief introduction to container   
  
