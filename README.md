@@ -125,9 +125,9 @@ This section helps us to know about the <a href="/home/monika/Container1.pdf">Co
 
 Let’s understand how DevOps Platform interacts with the two fundamental technologies Docker & Kubernetes. 
 
-<a href="/home/monika/Devops _Architecture_docker&kubernets.pdf">Docker Technology</a>
+<a href="Devops _Architecture_docker&kubernets.pdf">Docker Technology</a>
 
-<a href="/home/monika/Devops _Architecture_docker&kubernets.pdf">Kubernetes Technology</a>
+<a href="Devops _Architecture_docker&kubernets.pdf">Kubernetes Technology</a>
 
 
 <!--A simple explanation can be that a container is a form of operating system virtualization that contains all necessary executables, binary code, libraries and configuration files. There are some basic similarities but containers are very different from virtual machines. Compared to virtualization approaches, containers take advantage of a form of operating system (OS) virtualization in which features of the OS. In the case of the Linux kernel, namely the namespaces and cgroups are leveraged to isolate processes and control the amount of CPU, memory, and disk that those processes have access to.
