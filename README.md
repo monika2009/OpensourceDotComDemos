@@ -33,12 +33,12 @@ table, th, td {
 
 ## **Overview**
 
-NIC DevOps Platform is a container management platform built for various Indian government’s organizations that deploy containers based applications in production environments. Containerisation helps developers create applications faster and orchestrate the entire development cycle in the agile manner and combines development and IT operations through a practice popularly known as *DevOps*. DevOps facilitate modern application development, testing and packaging. NIC’s DevOps platform is the underlying IT infrastructure that is made up of many other software technologies such as Docker/container, Kubernetes  which provides a service for containerized workloads and is known as CaaS i.e. container as a service. Following sections provide a detailed description of each technology and procedures to use the DevOps platforms.
+NIC DevOps Platform is a container management platform built for various Indian government’s organizations that deploy containers based applications in production environments. Containerisation helps developers create applications faster and orchestrate the entire development cycle in the agile manner and combines development and IT operations through a practice popularly known as DevOps. DevOps facilitate modern application development, testing and packaging. NIC’s DevOps platform is the underlying IT infrastructure that is made up of many other software technologies such as Docker/container, Kubernetes  which provides a service for containerized workloads and is known as CaaS i.e. container as a service. Following sections provide a detailed description of each technology and procedures to use the DevOps platforms.
 
- 
+
 **Why DevOps**
 
-DevOps is like a culture when adopted has proven to increase the speed and quality of software delivery as well as better teamwork and efficiency across multiple teams. DevOps removes silos of communication and improves collaboration. Adoption of DevOps has improved the progress of software delivery through [CI-CD](#ci//cd), reliability and removes gaps and mistakes that can considerably delay the software release.
+DevOps is like a culture when adopted has proven to increase the speed and quality of software delivery as well as better teamwork and efficiency across multiple teams. DevOps removes silos of communication and improves collaboration. Adoption of DevOps has improved the progress of software delivery through **CI/CD**, reliability and removes gaps and mistakes that can considerably delay the software release.
 
 <img src="https://user-images.githubusercontent.com/67622286/126584545-23458724-f99a-44ee-aeb2-bce18112ac31.png" width=650 height=350>
 
@@ -70,9 +70,7 @@ NIC CaaS is a Container as a Service platform built for government organizations
 2. **External Endpoints** - External Endpoints provide connectivity between users applications running on NIC CaaS & external servers/Systems like Database, SMTP, SMS Gateways servers for external access.
 3. **Container Additional Items** - NIC CaaS provides a container Additional items in which users easily run and scale containerised applications through NIC Cloud. 
 
-<!--Before we dive into the NIC CaaS platform, it will be quite informative for you to know the core components and technologies that makes the NIC’s CaaS a cutting edge and modern DevOps Platform. While dealing with containers, we will hear two popular technologies,<a href="https://drive.google.com/file/d/1LzU_-7PJte_LVi8IUItHrgm_huK9YNdJ/view?usp=sharing">Docker</a> and the <a href="https://drive.google.com/file/d/1LzU_-7PJte_LVi8IUItHrgm_huK9YNdJ/view?usp=sharing">Kubernetes</a>. The following terms provide some important details on  <a href="https://drive.google.com/file/d/1LzU_-7PJte_LVi8IUItHrgm_huK9YNdJ/view?usp=sharing">Docker</a>, <a href="https://drive.google.com/file/d/1ag9ojoy8OcSJ3Ls2rBaNZ9I2F3Y793Uk/view?usp=sharing" target="_self">containers</a> & <a href="https://drive.google.com/file/d/1LzU_-7PJte_LVi8IUItHrgm_huK9YNdJ/view?usp=sharing">Kubernetes</a>-->
-
-Before we dive into the NIC CaaS platform, it will be quite informative for you to know the core components and technologies that makes the NIC’s CaaS a cutting edge and modern DevOps Platform. While dealing with [containers](#annexure-a), we will hear two popular technologies,[Docker](#annexure-b) and the [Kubernetes](#annexure-c). The following terms provide some important details on [Docker](#annexure-d) & [Kubernetes](#annexure-e).
+Before we dive into the NIC CaaS platform, it will be quite informative for you to know the core components and technologies that makes the NIC’s CaaS a cutting edge and modern DevOps Platform. While dealing with <a href="/home/monika/Container1.pdf">Container</a>, we will hear two popular technologies, <a href="/home/monika/Container1.pdf">Docker</a> and the <a href="/home/monika/Container1.pdf">Kubernetes</a>Kubernetes. 
 
 <!--#### A brief introduction to container
 
@@ -113,31 +111,26 @@ K8s helps in managing containerized workloads and services, which facilitates bo
 - **Self-healing**: Kubernetes restarts containers that fail, replaces containers, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
 - **Secret and configuration management**: Kubernetes lets you store and manage sensitive information, such as passwords, OAuth tokens, and SSH keys. You can deploy and update secrets and application configuration without rebuilding your container images, and without exposing secrets in your stack configuration.
 
-A detailed information of docker and kubernetes platform is given under the architecture section below. So the underlying platform in NIC CaaS is based on docker & kubernetes technology.
+A detailed information of docker and kubernetes platform is given under the architecture section below. So the underlying platform in NIC CaaS is based on docker & kubernetes.
 
 
-<!--![Screenshot from 2021-06-21 21-08-13](https://user-images.githubusercontent.com/67622286/122789463-f88fb780-d2d4-11eb-9ed1-f6309d3639e3.png
+<!--![Screenshot from 2021-06-21 21-08-13](https://user-images.githubusercontent.com/67622286/122789463-f88fb780-d2d4-11eb-9ed1-f6309d3639e3.png-->
 
-<div style="page-break-after: always"></div>
-
-## Basics of CaaS Platform
+<!--## Basics of CaaS Platform
 
 This section helps us to know about the <a href="/home/monika/Container1.pdf">Core Components and Technologies</a> like container, Virtual machines, Docker & Kubernetes that makes the NIC’s CaaS a cutting edge and modern DevOps Platform. -->
 
 
 ## **DevOps Architecture**
 
-Let’s understand how DevOps Platform interacts with the two fundamental technologies Docker & Kubernetes. This section describes in detail about-
+Let’s understand how DevOps Platform interacts with the two fundamental technologies Docker & Kubernetes. 
 
-<!-- - <a href="https://drive.google.com/file/d/1LzU_-7PJte_LVi8IUItHrgm_huK9YNdJ/view?usp=sharing">Docker Technology</a>
-- <a href="https://drive.google.com/file/d/1LzU_-7PJte_LVi8IUItHrgm_huK9YNdJ/view?usp=sharing">Kubernetes Technology</a>-->
+<a href="/home/monika/Devops _Architecture_docker&kubernets.pdf">Docker Technology</a>
 
-- [Docker Technology](#annexure-c)
-- [Kubernetes Technology](#annexure-d)
+<a href="/home/monika/Devops _Architecture_docker&kubernets.pdf">Kubernetes Technology</a>
 
-<!--### **Docker Technology**
 
-A simple explanation can be that a container is a form of operating system virtualization that contains all necessary executables, binary code, libraries and configuration files. There are some basic similarities but containers are very different from virtual machines. Compared to virtualization approaches, containers take advantage of a form of operating system (OS) virtualization in which features of the OS. In the case of the Linux kernel, namely the namespaces and cgroups are leveraged to isolate processes and control the amount of CPU, memory, and disk that those processes have access to.
+<!--A simple explanation can be that a container is a form of operating system virtualization that contains all necessary executables, binary code, libraries and configuration files. There are some basic similarities but containers are very different from virtual machines. Compared to virtualization approaches, containers take advantage of a form of operating system (OS) virtualization in which features of the OS. In the case of the Linux kernel, namely the namespaces and cgroups are leveraged to isolate processes and control the amount of CPU, memory, and disk that those processes have access to.
 
 Each container shares the same host OS or system kernel which makes containers more lightweight, portable and with less overhead. A container is a logical partition where users can run applications isolated from the rest of the system. Each application running in the container gets its own private network and a virtual filesystem that is not shared with other containers or the host.
 
@@ -229,7 +222,6 @@ The worker node has three components-
 
 Workloads is an application running on Kubernetes inside a pod or a set of pods. Workload resources manage a set of pods. An application can be stateless or stateful. The workload resources configure controllers that make sure the right number of the right kind of pod are running, to match the state specified by you.-->
 
-
 ## **DevOps Platform Components** 
 
  The majority of NIC DevOps Platform software runs on the NIC DevOps Platform Server. This Server includes all the software components used to manage the entire deployment.
@@ -250,8 +242,6 @@ A project is a group of multiple namespaces and access control policies within a
 #### Nodes
 NIC DevOps Platform API server tracks identities of all the nodes in all clusters.
 
-<div style="page-break-after: always"></div>
-
 ### **Cluster Controller and Agents**
 The cluster controller and cluster agents implement the business logic required to manage Kubernetes clusters.
 
@@ -266,6 +256,7 @@ The cluster controller and cluster agents implement the business logic required 
    - Application of the roles and bindings defined in each cluster’s global policies.
    - Communication between clusters and NIC DevOps Platform Server: events, stats, node info, and health.
 
+<div style="page-break-after: always"></div>
 
 ### **Authentication Proxy**
 
@@ -397,9 +388,9 @@ Under the Platform of NIC DevOps it provides 3 Dashboards  which can be accessed
 
 <img src ="https://user-images.githubusercontent.com/67622286/125446986-3a189da9-6eed-4040-acc3-24be6f5e874d.png" width=600 height=350>
      
-- Steps to work on the requested services which convert it into a dedicated Assigned projects to user in CaaS DevOps cloud platform-
+Steps to work on the requested services which convert it into a dedicated Assigned projects to user in CaaS DevOps cloud platform-
 
-- Here we are discussing how to deploy applications into the production environment by using the CaaS NIC devops cloud platform. Few steps need to be followed to understand the procedure.
+Here we are discussing how to deploy applications into the production environment by using the CaaS NIC devops cloud platform. Few steps need to be followed to understand the procedure.
 
 1. First Users will create the docker file & Docker file contains few layers & contents in order to build the docker image.
 
@@ -415,7 +406,7 @@ Under the Platform of NIC DevOps it provides 3 Dashboards  which can be accessed
      
 3. Having created this image now we will push into our Registry in chub.cloud.gov.in portal by docker push command.
 
-- When we login into the chub portal by giving credentials we will explore further container hub platforms and see various features in chub suits.
+When we login into the chub portal by giving credentials we will explore further container hub platforms and see various features in chub suits.
      
 ### **chub Cloud Platform**
      
@@ -462,7 +453,7 @@ NIC DevOps Container Registry provides two kinds of labels to isolate kinds of i
 - **Global Level Label:** Managed by system administrators and used to manage the images of the whole system. They can be added to images under any projects.
 - **Project Level Label:** Managed by project administrators under a project and can only be added to the images of the project.
      
-- When images are pushed on the project repository we have to assign labels accordingly like whether the image is used for *development*, *production* & *testing* purposes. we can refer below screenshot how to add label under the project - 
+When images are pushed on the project repository we have to assign labels accordingly like whether the image is used for *development*, *production* & *testing* purposes. we can refer below screenshot how to add label under the project - 
 
 - click the ADD LABELS button & add labels
 
@@ -478,7 +469,6 @@ Refer screenshot below -
 **Logs**
 
 In the log section we can find the activities like how many images have been pulled,how much time it's pushed,how many images are deleted etc.
-
 Refer screenshot
 
 <img src ="https://user-images.githubusercontent.com/67622286/125608050-8a07f89f-c187-489e-aa7d-e5cf0ad36e91.png" width=700 height=350>
@@ -510,7 +500,7 @@ Steps to configure webhooks-
 
 This section provides the scanning of the particular image or all images in NIC DevOps Container Registry having into the projects for deployed the images successfully into the environment. 
 
-- We have a dedicated scanner called *Clair* to check the vulnerabilities in the project Repository.Simply we just follow below steps-
+We have a dedicated scanner called *Clair* to check the vulnerabilities in the project Repository.Simply we just follow below steps-
 
 1) Enter into the  project, select the repository. 
 2) To trigger the vulnerability into the image we just select the image and click the **SCAN** button for the scan process.
@@ -518,7 +508,7 @@ This section provides the scanning of the particular image or all images in NIC 
     
 <img src ="https://user-images.githubusercontent.com/67622286/125736137-2bae2e74-9f9c-4029-954f-0ed8dc8f5185.png" width=700 height=350> 
      
-- Click on the tag name link, the detail page will be opened. Besides the information about the tag, all the vulnerabilities found in the last analysis process will be listed with the related information.  
+Click on the tag name link, the detail page will be opened. Besides the information about the tag, all the vulnerabilities found in the last analysis process will be listed with the related information.  
      
 <img src ="https://user-images.githubusercontent.com/67622286/125736580-c1d2288a-b1a1-4b33-8b92-935d3a994ab4.png" width=700 height=350>      
      
@@ -527,9 +517,8 @@ This section provides the scanning of the particular image or all images in NIC 
      
 **Configuration** 
 
-- It is the one of the important sections in which we can set the Deployment Security where we can set the vulnerability severity of the image to be **below low** & **below high**  then only after that we can deploy the images successfully into the environment.
-
-- After that all the dependencies are fulfilled to run the image in the environment then we should move into the DevOps cloud portal to deploy the application.
+It is the one of the important sections in which we can set the Deployment Security where we can set the vulnerability severity of the image to be **below low** & **below high**  then only after that we can deploy the images successfully into the environment.
+After that all the dependencies are fulfilled to run the image in the environment then we should move into the DevOps cloud portal to deploy the application.
     
 <img src ="https://user-images.githubusercontent.com/67622286/125739996-f3f80ae2-7a64-4b8c-bd8a-fc3ea74f4781.png" width=700 height=350> 
 
@@ -579,7 +568,7 @@ Into the Add Registry tab below are the field we just need to fill-
    
  <img src ="https://user-images.githubusercontent.com/67622286/125745992-0bb48de5-f183-4fa6-b13b-0b0552dbc09e.png" width=700 height=350>
      
-Now this is the time to deploy the **Workload** 
+Now this is the time to deploy the **Workload** `Workloads let you define the rules for application scheduling, scaling, and upgrade`
 
 1) Click Resources > **Workloads**.
 2) Enter a **Name** for the workload. 
@@ -770,147 +759,7 @@ In order to check the running application we need to click on the endpoint into 
 
      
 ## Now we are able to deploy the application and follow the CI/CD pipeline in order to deploy.
-
-
-<div style="page-break-after: always"></div>
-
-#### Annexure-A 
-#### A brief introduction to container
-
-A container is a standard unit of software that packages up code and all its dependencies so the application can be ported from one computing environment to another where it can run quickly and reliably. Docker is the most popular container runtime. Docker packages(containerize) your application and all its dependencies together in the form of a docker container image that is portable and works seamlessly in any environment that supports docker containers.
-
-Containers are supported in Linux, Windows, and other modern operating systems. A container can run  anything from small software or a micro service to large applications. 
-
-#### Annexure-B
-
-**How Dockers helps**
-
-- Docker provides the ability to package and run an application in a loosely isolated environment called a container.
-
-- The isolation and security allow you to run many containers simultaneously on a given host.
-
-- Docker provides tooling and a platform to manage the lifecycle of your containers.
-
-- Containerised application facilitates fast, consistent delivery of your applications.
-
-- Docker’s container-based platform allows for highly portable workloads.
-
-- Docker helps in dynamically managing workloads, scaling up or tearing down applications and services as business needs dictate, in near real time.
-
-- In the long run, docker provides a viable, cost-effective alternative to hypervisor-based virtual machines, so you can use more of your compute capacity to achieve your business goals.
-
-#### Annexure-C
-#### Docker and kubernetes are related
-
-#### What is Kubernetes
-
-Kubernetes, popularly known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications. Kubernetes distributes containerized applications across a cluster of machines. Kubernetes adds distributed computing features on top of containers such as load balancing, autoscaling, self-healing, rollout and roll back features etc. 
-
-**How Kubernetes helps**
-
-K8s helps in managing containerized workloads and services, which facilitates both declarative configuration and automation. It provides features that facilitate agile, continuous development, integration and delivery. The K8skey features are:
-
-- **Service discovery and load balancing**: Kubernetes can expose a container using the DNS name or using their own IP address. If traffic to a container is high, Kubernetes is able to load balance and distribute the network traffic so that the deployment is stable.
-- **Storage orchestration**: Kubernetes allows you to automatically mount a storage system of your choice, such as local storages, public cloud providers, and more.
-- **Automated rollouts and rollbacks**: You can describe the desired state for your deployed containers using Kubernetes, and it can change the actual state to the desired state at a controlled rate. For example, you can automate Kubernetes to create new containers for your deployment, remove existing containers and adapt all their resources to the new container.
-- **Automatic bin packing**: You provide Kubernetes with a cluster of nodes that it can use to run containerized tasks. You tell Kubernetes how much CPU and memory (RAM) each container needs. Kubernetes can fit containers onto your nodes to make the best use of your resources.
-- **Self-healing**: Kubernetes restarts containers that fail, replaces containers, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
-- **Secret and configuration management**: Kubernetes lets you store and manage sensitive information, such as passwords, OAuth tokens, and SSH keys. You can deploy and update secrets and application configuration without rebuilding your container images, and without exposing secrets in your stack configuration.     
-
-<div style="page-break-after: always"></div>
-
-### Annexure-D
-### Docker Technology
-
-A simple explanation can be that a container is a form of operating system virtualization that contains all necessary executables, binary code, libraries and configuration files. There are some basic similarities but containers are very different from virtual machines. Compared to virtualization approaches, containers take advantage of a form of operating system (OS) virtualization in which features of the OS. In the case of the Linux kernel, namely the namespaces and cgroups are leveraged to isolate processes and control the amount of CPU, memory, and disk that those processes have access to.
-
-Each container shares the same host OS or system kernel which makes containers more lightweight, portable and with less overhead. A container is a logical partition where users can run applications isolated from the rest of the system. Each application running in the container gets its own private network and a virtual filesystem that is not shared with other containers or the host.
-
-<img src="https://user-images.githubusercontent.com/67622286/122790347-dcd8e100-d2d5-11eb-961b-2657ef015188.jpg" width=500 height=350>
-
-*A comparison between Containers and Virtual machines*
-
-<a href="/home/monika/Docker.pdf">Docker</a>
-Docker uses a client server architecture where a **docker client** talks to a **docker daemon** which builds, runs and distributes containers.  The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. 
-  
-A Docker **image** is a read-only template with instructions for creating a Docker container.
-  
-The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes.  A daemon can also communicate with other daemons to manage Docker services.
-  
-**Docker engine** is the core of Docker, the underlying client-server technology that creates and runs the container. Docker engine components are : 
-- A system with a running daemon process dockerd.
-- APIs which specify interfaces that programs can use to talk to and instruct the Docker daemon.
-- A command line interface (CLI) client docker.
-
-A logical representation of docker engine -
-
-<img src="https://user-images.githubusercontent.com/67622286/125411011-1e434480-e3db-11eb-828d-1f216d4852d8.png" width=500 height=220>
-
->**Note:  runc is a small, lightweight CLI wrapper for libcontainer and a standalone container runtime tool**.
-
-### **Container Images**
-  
-A container image is a ready-to-run software package, containing everything needed to run an application. The code and any runtime it requires, all its software dependencies, system libraries, and default values for any essential settings that are required to run the application.
-
-  
-A container is a runnable instance on image. A docker container **registry** is a catalog of storage locations where you can push and pull container images. Docker hub is Docker’s own official image registry which can be a starting point for those who are new to container registry.  A Docker or a container **registry** stores Docker images. **Self-Hosted Registries** are one which can be setup as an organisation's own private registry.**Third-party registry** services are fully managed offerings that also give you control over how you manage your images—but without the operational headache of running your own on-premises registry. 
-  
-### **Container workflow**
-  
-Developers build container images from Dockerfiles and distribute container images from Docker registries. 
-
-
-<img src="https://user-images.githubusercontent.com/67622286/122794469-ec5a2900-d2d9-11eb-9037-38cfb4cefdc7.png" width=650 height=170>
-
-<div style="page-break-after: always"></div>
-
-### Annexure-E
-### Kubernetes Technology
-
-Kubernetes when deployed, it's basically a **cluster**. A Kubernetes cluster consists of a set of machines called **nodes**. A node can be a virtual or physical machine. A node is a worker machine. A **worker node** hosts the Pods that are the components of the application workload. The application workload runs on worker nodes. 
+    
      
-*Please refer to the below diagram which is a high level representation of a Kubernetes cluster*.
      
-<img src="https://user-images.githubusercontent.com/67622286/125412850-eb9a4b80-e3dc-11eb-89eb-108d85a26077.png" width=600 height=350>
-
-A **pod** represents a set of running containers in the kubernetes cluster. A Pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers
-
->Every cluster should have at least one worker node.
-
-The **control plane** manages the worker nodes and the Pods in the cluster. A control plane is the container orchestration layer that exposes the API and interfaces to define, deploy and manage the life cycle of a container. 
-
-Kubernetes follows master-slave architecture having 
-
-- [Master Node](#master-node)
      
-- [Worker Node](#worker-node)
- 
-### Master Node 
-The master node manages the Kubernetes cluster, and it is the entry point for all the administrative tasks. You can talk/connect to the master node via the CLI, GUI, or API. For achieving fault tolerance, there can be more than one master node in the cluster.
-
-Below are the main components of a master node-
-
-- **kube-apiserver** - The API server is the front end for the Kubernetes control plane.The main implementation of a Kubernetes API server is kube-apiserver. All communications and operations between the control plane components and external clients are translated into RESTful API calls that are handled by the API server, which then validates the requests, then processes and executes them.
-
-- **kube-controller-manager** - Non-terminating control loops that regulate the state of the Kubernetes cluster are managed by the Control Manager. Now, each one of these control loops knows about the desired state of the object it manages, and then they look at their current state through the API servers. The controller manager makes sure that your current state is the same as the desired state.
-
-- **cloud-controller-manager** - The cloud-controller-manager is a Kubernetes control plane component that embeds cloud-specific control logic. The cloud controller manager lets you link your cluster into your cloud provider's API. The cloud-controller-manager is structured using a plugin mechanism that allows different cloud providers to integrate their platforms with Kubernetes.
-
-- **kube-scheduler** - The kube-scheduler is the Kubernetes controller responsible for assigning pods to nodes in the cluster. It's scope is narrow but complex. The scheduler also considers the quality of service requirements, data locality, and many other such parameters. kube-scheduler selects a node for the pod in a 2-step operation known as *Filtering & Scoring*.
-
-- **etcd** -  The etcd is a distributed key-value store that is used to store the cluster state. etcd is written in the *goLang*, and it is based on the [Raft consensus algorithm](https://en.wikipedia.org/wiki/Raft_(algorithm)). Besides storing the cluster state, etcd is also used to store the configuration details such as the subnets and the config maps.
-
-
-### Worker Node
-A worker node is a virtual or physical server that runs the applications and is controlled by the master node. The pods are scheduled on the worker nodes, which have the necessary tools to run and connect them. **The application workload runs on worker nodes**.
-
-
-The worker node has three components-
-
-- **kubelet** - Kubelet is basically an agent that runs on each worker node and communicates with the master node. The kubelet takes a set of PodSpecs ``` a version of Pod library``` that are provided through various mechanisms and ensures that the containers described in those PodSpecs are running and healthy. The kubelet connects to the container runtime using *gRPC framework*. The kubelet connects to the *container runtime interface (CRI)* to perform containers and image operations. 
-- **kube-proxy** - Kube-proxy is a network proxy that runs on each node in cluster.kube-proxy maintains network rules on nodes. These network rules allow network communication to Pods from network sessions inside or outside of cluster.
-- **Container runtime** - The container runtime is the software that is responsible for running containers. Kubernetes supports several container runtimes: *Docker, containerd, CRI-O*, and any implementation of the Kubernetes CRI.
-
-## Kubernetes Workloads
-
-Workloads is an application running on Kubernetes inside a pod or a set of pods. Workload resources manage a set of pods. An application can be stateless or stateful. The workload resources configure controllers that make sure the right number of the right kind of pod are running, to match the state specified by you.
